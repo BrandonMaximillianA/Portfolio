@@ -51,9 +51,9 @@ const App = () => {
           <Navbar onChatToggle={() => setIsChatOpen(true)} />
           <main>
             <Hero />
-            <About />
             <AcademicFoundation />
             <Portfolio />
+            <About />
             <Contact />
           </main>
           <Footer />

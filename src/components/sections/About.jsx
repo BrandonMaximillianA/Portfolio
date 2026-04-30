@@ -61,7 +61,7 @@ const About = () => {
     <section id="about" className="about-section" ref={sectionRef}>
       <motion.div className="about-container" style={{ y, scale }}>
         <SectionTitle
-          title="About Me"
+          title=" More About Me"
           subtitle="Transforming ideas into digital experiences"
           withGlow
           center

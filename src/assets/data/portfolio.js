@@ -10,6 +10,7 @@ export const personal = {
   bio: "I am an AI-Specialized developer specializing in building intelligent, product-driven systems that bridge machine learning and real-world usability. With a strong foundation in computer vision and modern web technologies, I design and develop solutions that are not only technically robust but also intuitive and impactful.",
   bio2: "As a Computer Science student at Bina Nusantara University, I am focused on building at the intersection of AI engineering and product development. I approach technology through execution — identifying problems and turning them into functional systems. My background in UI/UX design allows me to translate complex AI capabilities into user-centered experiences, ensuring that every solution is both powerful and accessible. I work with modern development stacks to deliver scalable, production-ready applications that align with real-world needs.",
   email: "wsly.sdeano@gmail.com",
+  cv: "https://docs.google.com/document/d/1juK11FipUsFxIRlqIHVdMTLvscDmGJLm4b56tbQWbdA/edit?usp=sharing",
   //website: "",
   location: "Jakarta, Indonesia",
   links: {

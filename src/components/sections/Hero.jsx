@@ -310,12 +310,12 @@ const Hero = () => {
               </motion.a>
 
               <motion.a
-                href={`mailto:${personal.email}`}
+                href={`${personal.cv}`}
                 whileHover={{ scale: 1.02, backgroundColor: "rgba(0,102,255,0.08)", borderColor: "rgba(0,212,255,0.4)" }}
                 whileTap={{ scale: 0.98 }}
                 className="hero-btn-secondary"
               >
-                Let's Talk <Mail size={18} />
+                Download CV <ExternalLink size={18} />
               </motion.a>
             </motion.div>
 
