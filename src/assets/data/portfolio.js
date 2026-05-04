@@ -83,18 +83,18 @@ export const projects = [
     status: "Deployed",
     color: "#0066FF",
   },
-  // {
-  //   id: 2,
-  //   title: "ControlWindow",
-  //   description: "An AI-driven system, where user can control their device especially PC from afar by simply command or just using finger to control the pointer",
-  //   extendedDescription: "Developing a robust AI model to assist user. This projects used Computer Vision and Speech Recognition to train the model",
-  //   tags: ["AI/ML", "Computer Vision", "Speech Recognition"],
-  //   image: "/Images/Musaic.png",
-  //   liveUrl: "#",
-  //   detailUrl: "#",
-  //   status: "Developing",
-  //   color: "#10B981",
-  // },
+  {
+    id: 2,
+    title: "Prediction Model",
+    description: "Trained Machine Learning Model for predicting the percentage of someone's body having diabetes based on the Pima Indians Diabetes Dataset.",
+    extendedDescription: "This project involved data preprocessing, feature engineering, and model training using algorithms such as Logistic Regression, Decision Trees, and Random Forest. The best-performing model achieved an accuracy of 78% on the test set, demonstrating its potential for early diabetes risk assessment.",
+    tags: ["AI/ML", "Machine Learning"],
+    image: "/Images/PredModel.png",
+    liveUrl: "#",
+    detailUrl: "#",
+    status: "Deployed",
+    color: "#0066FF",
+  },
 ];
 
 export const certificates = [
