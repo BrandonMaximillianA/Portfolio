@@ -4,7 +4,7 @@
 
 export const personal = {
   name: "Wesley Sumedha Deano",
-  alias: "MemoriesF",
+  alias: "MemoriesW",
   tagline: "AI Engineer",
   subtitle: "BINUS – AI Engineering",
   bio: "I am an AI-Specialized developer specializing in building intelligent, product-driven systems that bridge machine learning and real-world usability. With a strong foundation in computer vision and modern web technologies, I design and develop solutions that are not only technically robust but also intuitive and impactful.",
@@ -16,41 +16,37 @@ export const personal = {
   links: {
     github: "https://github.com/Ws995566",
     linkedin: "www.linkedin.com/in/wesley-sumedha-deano",
-    //facebook: "",
     instagram: "https://www.instagram.com/_.auzora/",
-    //telegram: "",
   },
 };
 
 export const stats = [
   { label: "Total Projects", value: "3+", icon: "code", description: "Innovative AI integrated projects" },
-  { label: "Certificates", value: "2", icon: "award", description: "Professional skills validated" },
+  { label: "Certificates", value: "4", icon: "award", description: "Professional skills validated" },
   { label: "Years of Experience", value: "1", icon: "globe", description: "Continuous learning journey" },
 ];
 
 export const skills = ["Python", "Java", "Figma", "C/C++", "MySQL", "and many more"];
 
 export const techStack = [
-  // {
-  //   category: "Front-End (Client-Side)",
-  //   techs: [
-  //     { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-  //     { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-  //     { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-  //     { name: "ReactJS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-  //     { name: "Tailwind", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" },
-  //     { name: "Bootstrap", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" },
-  //     { name: "Vite", icon: "https://vitejs.dev/logo.svg" },
-  //   ]
-  // },
-  // {
-  //   category: "Back-End (Server-Side)",
-  //   techs: [
-  //     { name: "Node JS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
-  //     { name: "Express", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" },
-  //     { name: "Firebase", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" },
-  //   ]
-  // },
+  {
+    category: "Programming Languages",
+    techs: [
+      { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+      { name: "Java", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" },
+      { name: "C/C++", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" },
+    ]
+  },
+  {
+    category: "Front-End (Client-Side)",
+    techs: [
+      { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+      { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+      { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+      { name: "ReactJS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+      { name: "Vite", icon: "https://vitejs.dev/logo.svg" },
+    ]
+  },
   {
     category: "Database Layer",
     techs: [
@@ -63,9 +59,9 @@ export const techStack = [
     techs: [
       { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
       { name: "VS Code", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
-      { name: "Figma", icon: "/Images/figma.png" },
-      { name: "Claude", icon: "/Images/Claude.svg" },
-      { name: "ChatGPT", icon: "/Images/chatgpt.png" },
+      { name: "Figma", icon: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" },
+      { name: "Claude", icon: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Claude-ai-icon.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" },
+      { name: "ChatGPT", icon: "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg" },
     ]
   }
 ];
@@ -81,19 +77,19 @@ export const projects = [
     liveUrl: "https://hellomms.com/",
     detailUrl: "#",
     status: "Deployed",
-    color: "#0066FF",
+    color: "#00f742",
   },
   {
     id: 2,
-    title: "Prediction Model",
+    title: "Diabetes Desease Prediction Model",
     description: "Trained Machine Learning Model for predicting the percentage of someone's body having diabetes based on the Pima Indians Diabetes Dataset.",
     extendedDescription: "This project involved data preprocessing, feature engineering, and model training using algorithms such as Logistic Regression, Decision Trees, and Random Forest. The best-performing model achieved an accuracy of 78% on the test set, demonstrating its potential for early diabetes risk assessment.",
     tags: ["AI/ML", "Machine Learning"],
     image: "/Images/PredModel.png",
-    liveUrl: "#",
+    liveUrl: "https://diabetesprediction-program-assignment-ml.streamlit.app/",
     detailUrl: "#",
     status: "Deployed",
-    color: "#0066FF",
+    color: "#00f742",
   },
 ];
 
@@ -102,7 +98,6 @@ export const certificates = [
   { title: "Java Programming", issuer: "BNCC BINUS @Malang", year: "2025" },
   { title: "Claude 101", issuer: "Anthropic Education", year: "2026" },
   { title: "AI Fluency: Framework & Foundations", issuer: "Anthropic Education", year: "2026" },
-  // { title: "Back-End Developer Professional Certificate", issuer: "Coursera", year: "2026" },
 ];
 
 export const academic = {
@@ -118,7 +113,6 @@ export const academic = {
       focus: "Logic & Programming",
       concepts: ["OOP", "Data Structures", "Algorithm and Programming"],
       stack: ["Java", "C", "C++"],
-      //project: "Personal Portfolio v1 — A minimalist introduction to web presence.",
       icon: "code"
     },
     {
@@ -128,22 +122,10 @@ export const academic = {
       focus: "Intelligence System",
       concepts: ["Machine Learning", "Software Engineering", "Computer Vision"],
       stack: ["Python"],
-      //project: "Wonder of Aklan — A curated tourism platform showcasing local destinations with a clean, aesthetic UI.",
       icon: "database"
     },
-    // {
-    //   id: "03",
-    //   year: "Third Year",
-    //   title: "The Modern Stack",
-    //   focus: "Full-Stack & Quality Assurance",
-    //   concepts: ["SQA", "API Design", "Component Architecture"],
-    //   stack: ["React", "Node.js", "Express", "MongoDB"],
-    //   project: "Banana Leaf Disease Detection — An AI-driven application designed to identify agricultural threats through image analysis.",
-    //   status: "In Progress",
-    //   icon: "layers"
-    // },
     {
-      id: "04",
+      id: "03",
       year: "Current Focus",
       title: "Current Focus",
       status: "Building & Researching",

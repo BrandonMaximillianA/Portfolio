@@ -275,13 +275,13 @@
 }
 
 .status-deployed {
-  color: #34d399;
-  border-color: rgba(16, 185, 129, 0.3);
+  color: #00f742;
+  border-color: rgba(0, 247, 66, 0.3);
 }
 
-.status-developing {
-  color: #fbbf24;
-  border-color: rgba(245, 158, 11, 0.3);
+.status-finished {
+  color: #ebf700;
+  border-color: rgba(235, 247, 0, 0.3);
 }
 
 

@@ -13,38 +13,6 @@ const iconMap = { code: Code2, award: Award, globe: Globe };
 const StatCard = ({ stat, index }) => {
   const { tilt, onMouseMove, onMouseLeave } = useTilt(15);
   const Icon = iconMap[stat.icon] || Code2;
-
-  return (
-    <motion.div
-      variants={zoomIn}
-      custom={0.2 + index * 0.15}
-      onMouseMove={onMouseMove}
-      onMouseLeave={onMouseLeave}
-      className="concept-stat-card"
-      style={{
-        rotateX: tilt.x,
-        rotateY: tilt.y,
-        perspective: '1000px',
-      }}
-    >
-      <div className="stat-icon-box">
-        <Icon size={24} />
-      </div>
-
-      <div className="stat-number-big">
-        {stat.value.replace('+', '')}
-      </div>
-
-      <div className="stat-label-group">
-        <span className="stat-main-label">{stat.label}</span>
-        <span className="stat-sub-label">{stat.description}</span>
-      </div>
-
-      <div className="stat-card-arrow">
-        <ArrowUpRight size={20} />
-      </div>
-    </motion.div>
-  );
 };
 
 const About = () => {
@@ -93,29 +61,6 @@ const About = () => {
             <motion.p className="about-description" variants={slideInLeft}>
               {personal.bio2}
             </motion.p>
-            
-            <motion.div className="about-buttons" variants={zoomIn}>
-              <motion.a 
-                href="#" 
-                className="button button-primary"
-                whileHover={{ y: -3, boxShadow: '0 10px 20px rgba(59, 130, 246, 0.4)' }}
-                whileTap={{ scale: 0.98 }}
-              >
-                <Download size={18} /> Download CV
-              </motion.a>
-              <motion.a 
-                href="#portfolio" 
-                className="button button-outline"
-                whileHover={{ y: -3, background: 'rgba(255,255,255,0.05)' }}
-                whileTap={{ scale: 0.98 }}
-                onClick={(e) => {
-                  e.preventDefault();
-                  document.getElementById('portfolio')?.scrollIntoView({ behavior: 'smooth' });
-                }}
-              >
-                <Code2 size={18} /> View Projects
-              </motion.a>
-            </motion.div>
           </motion.div>
 
           {/* Right Avatar Content */}
