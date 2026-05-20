@@ -97,11 +97,11 @@ export const projects = [
     description: "An interactive web based application that detects and classifies Korean characters drawn on a canvas using a custom-trained Convolutional Neural Network (CNN) and OpenCV for image processing.",
     extendedDescription: "This project leverages OpenCV for image processing and a custom-trained Convolutional Neural Network (CNN) for character recognition. The application allows users to draw Korean characters on a canvas, which are then processed and classified in real-time, providing an interactive experience for language learning and practice.",
     tags: ["AI/ML", "Computer Vision"],
-    image: "/Images/PredModel.png",
+    image: "/Images/Stay_Tuned_Logo.png",
     liveUrl: "",
     detailUrl: "#",
     status: "Building",
-    color: "#def700",
+    color: "",
   },
 ];
 
