@@ -38,13 +38,14 @@ export const techStack = [
     ]
   },
   {
-    category: "Front-End (Client-Side)",
+    category: "AI/ML Frameworks",
     techs: [
-      { name: "HTML", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
-      { name: "CSS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
-      { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
-      { name: "ReactJS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
-      { name: "Vite", icon: "https://vitejs.dev/logo.svg" },
+      { name: "TensorFlow", icon: "https://upload.wikimedia.org/wikipedia/commons/2/20/Tensorflow-svgrepo-com.svg" },
+      { name: "PyTorch", icon: "https://icon.icepanel.io/Technology/svg/PyTorch.svg" },
+      { name: "Keras", icon: "https://icon.icepanel.io/Technology/svg/Keras.svg" },
+      { name: "Scikit-learn", icon: "https://icon.icepanel.io/Technology/svg/scikit-learn.svg" },
+      { name: "Hugging Face", icon: "https://www.logo.dev/brand-assets/logos/huggingface.co/logo.svg" },
+      { name: "OpenCV", icon: "https://icon.icepanel.io/Technology/svg/OpenCV.svg" },
     ]
   },
   {
