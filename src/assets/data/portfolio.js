@@ -93,6 +93,18 @@ export const projects = [
   },
   {
     id: 3,
+    title: "User ( Shopper ) Behavior Prediction Model",
+    description: "Trained Machine Learning Model for predicting user behavior based on shopping patterns and preferences.",
+    extendedDescription: "This project involved data preprocessing, feature engineering, and model training using algorithms such as Logistic Regression, Decision Trees, and Random Forest. The best-performing model achieved an accuracy of 78% on the test set, demonstrating its potential for early diabetes risk assessment.",
+    tags: ["AI/ML", "Machine Learning"],
+    image: "/Images/UserBehaviourPredModel.png",
+    liveUrl: "https://users-behaviour-analyzer.streamlit.app/",
+    detailUrl: "#",
+    status: "Deployed",
+    color: "#00f742",
+  },
+  {
+    id: 4,
     title: "Korean Language Detection on Canvas",
     description: "An interactive web based application that detects and classifies Korean characters drawn on a canvas using a custom-trained Convolutional Neural Network (CNN) and OpenCV for image processing.",
     extendedDescription: "This project leverages OpenCV for image processing and a custom-trained Convolutional Neural Network (CNN) for character recognition. The application allows users to draw Korean characters on a canvas, which are then processed and classified in real-time, providing an interactive experience for language learning and practice.",
