@@ -174,8 +174,8 @@ export const academic = {
 
 export const navLinks = [
   { label: "Home", href: "#home" },
-  { label: "About", href: "#about" },
   { label: "Academic", href: "#academic" },
   { label: "Portfolio", href: "#portfolio" },
+  { label: "About", href: "#about" },
   { label: "Contact", href: "#contact" },
 ];
