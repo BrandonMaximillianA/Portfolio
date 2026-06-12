@@ -112,7 +112,7 @@ const ProjectModal = ({ project, onClose }) => {
                   </div>
                   <div className="elite-spec">
                     <span className="spec-elite-label">Project Ownership</span>
-                    <p className="spec-elite-value">Wesley Sumedha Deano</p>
+                    <p className="spec-elite-value">Brandon Maximillian Avalokita</p>
                   </div>
                 </div>
 
