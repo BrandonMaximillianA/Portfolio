@@ -14,7 +14,7 @@ export const personal = {
   location: "Jakarta, Indonesia",
   links: {
     github: "https://github.com/Ws995566",
-    linkedin: "www.linkedin.com/in/wesley-sumedha-deano",
+    linkedin: "https://www.linkedin.com/in/wesley-sumedha-deano-551322326",
     instagram: "https://www.instagram.com/_.memoriesw/",
   },
 };
