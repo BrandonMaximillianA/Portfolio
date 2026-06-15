@@ -8,7 +8,7 @@ export const personal = {
   tagline: "Data Engineer",
   subtitle: "BINUS – Data Engineer",
   bio: "Cricket",
-  bio2: "As a Computer Science student at Bina Nusantara University, I am focused on building at the intersection of AI engineering and product development. I approach technology through execution — identifying problems and turning them into functional systems. My background in UI/UX design allows me to translate complex AI capabilities into user-centered experiences, ensuring that every solution is both powerful and accessible. I work with modern development stacks to deliver scalable, production-ready applications that align with real-world needs.",
+  bio2: "As a Computer Science student at Bina Nusantara University, I am focused on building at the intersection of data engineering and scalable AI systems. I approach technology through execution — designing robust architectures and turning raw data into reliable, production-ready pipelines. My background in system design and data modeling allows me to translate complex analytical needs into high-performance infrastructure, ensuring that data is accessible, high-quality, and optimized for downstream AI workloads. I work with modern distributed data stacks to deliver scalable backend systems that align with real-world enterprise needs.",
   email: "brandonavalokita@gmail.com",
   cv: "https://docs.google.com/document/d/1juK11FipUsFxIRlqIHVdMTLvscDmGJLm4b56tbQWbdA/edit?usp=sharing",
   location: "Jakarta, Indonesia",
@@ -138,35 +138,35 @@ export const certificates = [
 
 export const academic = {
   degree: "Bachelor of Computer Science",
-  major: "Major in Intelligence System",
+  major: "Major in Data Technology",
   institution: "Bina Nusantara University – School of Computer Science",
   period: "2024 — Present",
   timeline: [
     {
       id: "01",
-      year: "First Year",
-      title: "The Foundations",
+      year: "First Year - 1st and 2nd Semester",
+      title: "Computer Science Basics",
       focus: "Logic & Programming",
-      concepts: ["OOP", "Data Structures", "Algorithm and Programming"],
-      stack: ["Java", "C", "C++"],
+      concepts: ["Algorithm and Programming", "Data Structures", "Front-End Web Development", "UI/UX Design"],
+      stack: ["C", "C++", "Python", "HTML/CSS", "JavaScript"],
       icon: "code"
     },
     {
       id: "02",
-      year: "Second Year",
-      title: "The Systems",
-      focus: "Intelligence System",
-      concepts: ["Machine Learning", "Software Engineering", "Computer Vision"],
-      stack: ["Python"],
+      year: "Second Year - 3rd and 4th Semester",
+      title: "Diving into Database",
+      focus: "Database & AI Foundations",
+      concepts: ["Artifical Intelligence", "Object-Oriented Programming", "Big Data Processing", "Data Engineering"],
+      stack: ["Python", "MySQL", "Java"],
       icon: "database"
     },
     {
       id: "03",
       year: "Current Focus",
       title: "Current Focus",
-      status: "Building & Researching",
-      deepDives: ["Machine Learning", "Computer Vision", "Software Development"],
-      goal: "Bridging academic theory with industry-grade software deployment.",
+      status: "Study is in progress",
+      concepts: ["Data Mining", "Operating Systems", "etc."],
+      goal: "Sharpen my intuition in database to establish high quality data cultures in daily work to improve overall performance.",
       icon: "activity"
     }
   ]
