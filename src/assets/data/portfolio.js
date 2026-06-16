@@ -37,14 +37,13 @@ export const techStack = [
     ]
   },
   {
-    category: "AI/ML Frameworks",
+    category: "Creative & Prototyping Tools",
     techs: [
-      { name: "TensorFlow", icon: "https://upload.wikimedia.org/wikipedia/commons/2/20/Tensorflow-svgrepo-com.svg" },
-      { name: "PyTorch", icon: "https://icon.icepanel.io/Technology/svg/PyTorch.svg" },
-      { name: "Keras", icon: "https://icon.icepanel.io/Technology/svg/Keras.svg" },
-      { name: "Scikit-learn", icon: "https://icon.icepanel.io/Technology/svg/scikit-learn.svg" },
-      { name: "Hugging Face", icon: "https://www.logo.dev/brand-assets/logos/huggingface.co/logo.svg" },
-      { name: "OpenCV", icon: "https://icon.icepanel.io/Technology/svg/OpenCV.svg" },
+      { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+      { name: "VS Code", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
+      { name: "Figma", icon: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" },
+      { name: "Claude", icon: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Claude-ai-icon.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" },
+      { name: "ChatGPT", icon: "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg" },
     ]
   },
   {
@@ -55,85 +54,108 @@ export const techStack = [
     ]
   },
   {
-    category: "Creative & Prototyping Tools",
+    category: "Database & Big Data Tools",
     techs: [
-      { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
-      { name: "VS Code", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" },
-      { name: "Figma", icon: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" },
-      { name: "Claude", icon: "https://upload.wikimedia.org/wikipedia/commons/0/0f/Claude-ai-icon.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" },
-      { name: "ChatGPT", icon: "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg" },
-    ]
+  { 
+    name: "Power BI", 
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg" 
+  },
+  { 
+    name: "Tableau", 
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg" 
+  },
+  { 
+    name: "Pentaho Data Integration", 
+    icon: "https://upload.wikimedia.org/wikipedia/commons/5/5a/Hitachi_Vantara_Logo.svg" 
+  },
+  { 
+    name: "XAMPP", 
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xampp/xampp-original.svg" 
+  }
+]
   }
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "Hello MMS",
-    description: "Hellomms.com is a dual-role web platform that combines a Store Management System (admin side) with a customer-facing service and e-commerce interface.  ",
+    title: "ShipDecKK",
+    description: "ShipDecKK is a web-based application designed to streamline the process of booking and managing cargo shipments. You could see the wide variety of ships through gallery, get to know our services, learn something new about the people behind ShipDecKK, and we make it easy to subscribe for a membership.",
     extendedDescription: "",
     tags: ["Full Stack", "UI/UX", "Team Project"],
-    image: "/Images/HelloMMS.png",
-    liveUrl: "https://hellomms.com/",
+    image: "/Images/ShipDecKK.png",
+    liveUrl: "https://ship-dec-kk-zeta.vercel.app",
     detailUrl: "#",
     status: "Deployed",
     color: "#00f742",
   },
   {
     id: 2,
-    title: "Diabetes Desease Prediction Model",
-    description: "Trained Machine Learning Model for predicting the percentage of someone's body having diabetes based on the Pima Indians Diabetes Dataset.",
-    extendedDescription: "This project involved data preprocessing, feature engineering, and model training using algorithms such as Logistic Regression, Decision Trees, and Random Forest. The best-performing model achieved an accuracy of 78% on the test set, demonstrating its potential for early diabetes risk assessment.",
-    tags: ["Machine Learning", "Team Project"],
-    image: "/Images/PredModel.png",
-    liveUrl: "https://diabetesprediction-program-assignment-ml.streamlit.app/",
+    title: "EduScore",
+    description: "EduScore is a mobile application designed to help students feel more in control with their academic performance. EduScore lets students add tasks, log their study session, and much more.",
+    extendedDescription: "",
+    tags: ["Mobile Development", "React Native", "Team Project"],
+    image: "/Images/EduScore.png",
+    liveUrl: "https://edu-score-rust.vercel.app",
     detailUrl: "#",
     status: "Deployed",
     color: "#00f742",
   },
   {
     id: 3,
-    title: "User ( Shopper ) Behavior Prediction Model",
-    description: "Trained Machine Learning Model for predicting user behavior based on shopping patterns and preferences.",
-    extendedDescription: "This project involved data preprocessing, feature engineering, and model training using algorithms such as Logistic Regression, Decision Trees, and Random Forest. The best-performing model achieved an accuracy of 78% on the test set, demonstrating its potential for early diabetes risk assessment.",
-    tags: ["Machine Learning", "Team Project"],
-    image: "/Images/UserBehaviourPredModel.png",
-    liveUrl: "https://users-behaviour-analyzer.streamlit.app/",
+    title: "Data Engineering Process",
+    description: "Developing a data engineering architecture from scratch, including data ingestion, transformation, and storage using Pentaho Data Integration (PDI) to create a robust and scalable data pipeline.",
+    extendedDescription: "",
+    tags: ["Data Engineering", "Pentaho Data Integration", "Team Project"],
+    image: "/Images/DatEng.png",
+    liveUrl: "https://github.com/BrandonMaximillianA/DataEngineering.git",
     detailUrl: "#",
     status: "Deployed",
     color: "#00f742",
   },
   {
     id: 4,
-    title: "NusaTrip",
+    title: "Data Visualization Dashboard",
     description: "NusaTrip is an web based application specialized on planning your holiday trip. This application designed for all in one solution for local or non-local people who are confused how to plan their holiday trip.",
     extendedDescription: "",
-    tags: ["Software Engineering", "Team Project"],
-    image: "/Images/NusaTrip.png",
-    liveUrl: "https://nusatrip-fe.vercel.app/",
+    tags: ["Data Visualization", "Tableau", "Team Project"],
+    image: "/Images/DatVis.png",
+    liveUrl: "https://public.tableau.com/views/DatVis-ProjectTerbaru/Dashboard2?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
     detailUrl: "#",
     status: "Deployed",
     color: "00f742",
   },
   {
     id: 5,
-    title: "Korean Language Detection on Canvas",
-    description: "An interactive web based application that detects and classifies Korean characters drawn on a canvas using a custom-trained Convolutional Neural Network (CNN) and OpenCV for image processing.",
-    extendedDescription: "This project leverages OpenCV for image processing and a custom-trained Convolutional Neural Network (CNN) for character recognition. The application allows users to draw Korean characters on a canvas, which are then processed and classified in real-time, providing an interactive experience for language learning and practice.",
-    tags: ["AI/ML", "Computer Vision", "Team Project"],
-    image: "/Images/Stay_Tuned_Logo.png",
-    liveUrl: "",
+    title: "Big Data Architecture",
+    description: "Establishing a big data architectrure using Hadoop is essential for processing and analyzing large volumes of data efficiently.",
+    extendedDescription: "",
+    tags: ["Big Data Architecture", "Spark", "Hadoop"],
+    image: "/Images/BDP.png",
+    liveUrl: "https://github.com/BrandonMaximillianA/BigDataProcessing.git",
     detailUrl: "#",
-    status: "Building",
-    color: "",
+    status: "Deployed",
+    color: "00f742",
+  },
+  {
+    id: 6,
+    title: "Many More",
+    description: "Everything is accessible in GitHub.",
+    extendedDescription: "",
+    tags: [""],
+    image: "/Images/GIT.png",
+    liveUrl: "https://github.com/BrandonMaximillianA",
+    detailUrl: "#",
+    status: "Deployed",
+    color: "00f742",
   },
 ];
 
 export const certificates = [
-  { title: "Fundamentals of Deep Learning", issuer: "NVIDIA", year: "2025" },
-  { title: "Java Programming", issuer: "BNCC BINUS @Malang", year: "2025" },
-  { title: "Claude 101", issuer: "Anthropic Education", year: "2026" },
-  { title: "AI Fluency: Framework & Foundations", issuer: "Anthropic Education", year: "2026" },
+  { title: "Original Rekor Indonesia Award", issuer: "Original Rekor Indonesia", year: "2025" },
+  // { title: "Java Programming", issuer: "BNCC BINUS @Malang", year: "2025" },
+  // { title: "Claude 101", issuer: "Anthropic Education", year: "2026" },
+  // { title: "AI Fluency: Framework & Foundations", issuer: "Anthropic Education", year: "2026" },
 ];
 
 export const academic = {

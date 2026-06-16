@@ -9,7 +9,7 @@ import '../../styles/Portfolio.css';
 
 const TABS = [
   { id: 'projects', label: 'Projects', Icon: Code2 },
-  { id: 'certificates', label: 'Certificates', Icon: Award },
+  { id: 'certificates', label: 'Award', Icon: Award },
   { id: 'techstack', label: 'Tech Stack', Icon: Layers },
 ];
 
