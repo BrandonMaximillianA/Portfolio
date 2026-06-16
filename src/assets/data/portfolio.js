@@ -10,7 +10,7 @@ export const personal = {
   bio: "Cricket",
   bio2: "As a Computer Science student at Bina Nusantara University, I am focused on building at the intersection of data engineering and scalable AI systems. I approach technology through execution — designing robust architectures and turning raw data into reliable, production-ready pipelines. My background in system design and data modeling allows me to translate complex analytical needs into high-performance infrastructure, ensuring that data is accessible, high-quality, and optimized for downstream AI workloads. I work with modern distributed data stacks to deliver scalable backend systems that align with real-world enterprise needs.",
   email: "brandonavalokita@gmail.com",
-  cv: "https://docs.google.com/document/d/1juK11FipUsFxIRlqIHVdMTLvscDmGJLm4b56tbQWbdA/edit?usp=sharing",
+  cv: "https://docs.google.com/document/d/1e5LHsVw94JQMl1866kIp5SS86eDYEYHYbrtLrU3KBBs/edit?usp=sharing",
   location: "Jakarta, Indonesia",
   links: {
     github: "https://github.com/BrandonMaximillianA",
