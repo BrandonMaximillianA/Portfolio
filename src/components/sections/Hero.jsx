@@ -272,7 +272,7 @@ const Hero = () => {
               variants={slowFadeUp}
               className="hero-bio"
             >
-              I am an <strong className="text-white-bold">AI-focused developer</strong> specializing in building intelligent, product-driven systems that bridge machine learning and real-world usability. With a strong foundation in computer vision and modern web technologies, I design and develop solutions that are not only technically robust but also intuitive and impactful.
+              I am an <strong className="text-white-bold">Data Specialist</strong> specializing in building scalable, production-ready data pipelines and robust infrastructure that power intelligent systems. Combining a strong foundation in data architecture with an AI-focused developer background, I bridge the gap between raw data and real-world usability—ensuring data is high-performing, reliable, and optimized for impactful downstream applications.
             </motion.p>
 
             {/* Call to Actions */}

@@ -91,7 +91,7 @@ const About = () => {
             <div className="about-avatar-circle">
               {/* Default Image */}
               <motion.img 
-                src="/Images/WesleySD.jpg" 
+                src="/Images/BrandonF1.jpg" 
                 alt={personal.name} 
                 className="about-avatar-image" 
                 animate={{ opacity: isHovered ? 0 : 1 }}
@@ -99,7 +99,7 @@ const About = () => {
               />
               {/* Hover Image */}
               <motion.img 
-                src="/Images/Hover.jpeg" 
+                src="/Images/BrandonF2.jpg" 
                 alt={personal.name} 
                 className="about-avatar-image hover-image" 
                 initial={{ opacity: 0 }}

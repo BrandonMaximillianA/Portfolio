@@ -42,7 +42,7 @@ const Footer = () => {
             <div className="footer-logo">
               <img src="/Images/Logo.png" alt="Memories W Logo" className="footer-logo-img" />
               <span className="footer-logo-text">
-                Memories<span className="footer-logo-highlight">W</span>
+                Brandon<span className="footer-logo-highlight"> M.A.</span>
               </span>
             </div>
             <p className="footer-tagline">

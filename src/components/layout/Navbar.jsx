@@ -96,7 +96,7 @@ const Navbar = ({ onChatToggle }) => {
 
           {/* Right Section */}
           <div className="navbar-actions">
-            {/* AI Assistant Wrapper (Synchronized Hover) */}
+            {/* AI Assistant Wrapper (Synchronized Hover)
             <motion.div
               initial="initial"
               whileHover="hover"
@@ -122,7 +122,7 @@ const Navbar = ({ onChatToggle }) => {
                 <Zap size={16} className="ai-sparkle-icon" />
                 <div className="ai-icon-glow" />
               </motion.button>
-            </motion.div>
+            </motion.div> */}
 
             {/* CTA */}
             <motion.a
