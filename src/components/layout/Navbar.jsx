@@ -63,7 +63,7 @@ const Navbar = ({ onChatToggle }) => {
               <img src="/Images/Logo.png" alt="Logo" className="navbar-logo-img" />
             </div>
             <span className="navbar-logo-text">
-              Memories<span className="navbar-logo-highlight">W</span>
+              Brandon<span className="navbar-logo-highlight"> M.A.</span>
             </span>
           </motion.a>
 

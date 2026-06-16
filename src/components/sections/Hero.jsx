@@ -8,7 +8,7 @@ import { useTilt } from '../../hooks';
 import '../../styles/Hero.css';
 
 // ── Typewriter ───────────────────────────────────────────────
-const WORDS = ['AI Enthusiast', 'AI Engineer', 'UI/UX Designer', 'Photographer'];
+const WORDS = ['Data Enthusiast', 'UI/UX & Graphics Designer', 'Photo & Videographer'];
 
 const TypeWriter = () => {
   const [wordIndex, setWordIndex] = useState(0);
@@ -115,9 +115,9 @@ const CodePanel = () => {
         {/* Code block content */}
         <div className="hero-code-panel-content">
           <div><span style={{ color: '#60a5fa' }}>const</span> <span style={{ color: '#67e8f9' }}>Developer</span> <span style={{ color: 'rgba(255,255,255,0.5)' }}>= {'{'}</span></div>
-          <div className="hero-code-panel-line-indent"><span style={{ color: '#93c5fd' }}>name</span><span style={{ color: 'rgba(255,255,255,0.5)' }}>:</span> <span style={{ color: '#6ee7b7', borderBottom: '1px solid rgba(110,231,183,0.3)' }}>"Wesley Sumedha Deano"</span><span style={{ color: 'rgba(255,255,255,0.5)' }}>,</span></div>
-          <div className="hero-code-panel-line-indent"><span style={{ color: '#93c5fd' }}>role</span><span style={{ color: 'rgba(255,255,255,0.5)' }}>:</span> <span style={{ color: '#6ee7b7' }}>"AI Engineer"</span><span style={{ color: 'rgba(255,255,255,0.5)' }}>,</span></div>
-          <div className="hero-code-panel-line-indent"><span style={{ color: '#93c5fd' }}>passion</span><span style={{ color: 'rgba(255,255,255,0.5)' }}>:</span> <span style={{ color: '#6ee7b7' }}>"Artificial Intelligence"</span><span style={{ color: 'rgba(255,255,255,0.5)' }}>,</span></div>
+          <div className="hero-code-panel-line-indent"><span style={{ color: '#93c5fd' }}>name</span><span style={{ color: 'rgba(255,255,255,0.5)' }}>:</span> <span style={{ color: '#6ee7b7', borderBottom: '1px solid rgba(110,231,183,0.3)' }}>"Brandon Maximillian Avalokita"</span><span style={{ color: 'rgba(255,255,255,0.5)' }}>,</span></div>
+          <div className="hero-code-panel-line-indent"><span style={{ color: '#93c5fd' }}>role</span><span style={{ color: 'rgba(255,255,255,0.5)' }}>:</span> <span style={{ color: '#6ee7b7' }}>"Data Engineer"</span><span style={{ color: 'rgba(255,255,255,0.5)' }}>,</span></div>
+          <div className="hero-code-panel-line-indent"><span style={{ color: '#93c5fd' }}>passion</span><span style={{ color: 'rgba(255,255,255,0.5)' }}>:</span> <span style={{ color: '#6ee7b7' }}>"Database Technology"</span><span style={{ color: 'rgba(255,255,255,0.5)' }}>,</span></div>
 
           <div className="hero-code-panel-line-indent" style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', paddingTop: '0.5rem', paddingBottom: '0.5rem' }}>
             <span style={{ color: '#93c5fd', marginTop: '0.25rem' }}>skills</span><span style={{ color: 'rgba(255,255,255,0.5)', marginTop: '0.25rem' }}>: [</span>
@@ -254,7 +254,7 @@ const Hero = () => {
             <motion.div variants={slowStagger}>
               <h1 style={{ fontFamily: 'var(--font-display)', fontWeight: 800, lineHeight: 1.05, letterSpacing: '-0.025em' }}>
                 <motion.span variants={slowSlideInRight} className="hero-h1-second" style={{ display: 'block' }}>
-                  AI Engineer
+                  Data Engineer
                 </motion.span>
               </h1>
             </motion.div>
